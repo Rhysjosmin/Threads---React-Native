@@ -4,7 +4,7 @@
     "slug": "Threads",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Favicon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/Favicon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rhysjosmin.Threads"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "50e3d352-75d4-44b8-aec0-c7b630265993"
+      }
     }
   }
 }
